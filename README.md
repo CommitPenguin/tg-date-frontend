@@ -16,15 +16,17 @@ A modern dating mini-app built using the **Telegram Mini App API** and **React.j
 🔗 **Sample Bot:** https://t.me/VivaDateBot
 
 ## 🚀 Features
-- Automatic Telegram login  
-- User onboarding with editable profile info  
-- Swipe-style cards (Like / Dislike)  
-- Real-time match system  
-- Matches list with profile views  
-- Profile editing + Stripe upgrade  
+
+- Automatic Telegram login
+- User onboarding with editable profile info
+- Swipe-style cards (Like / Dislike)
+- Real-time match system
+- Matches list with profile views
+- Profile editing + Stripe upgrade
 - Optimized UI for Telegram Mini Apps
 
 ## 📦 Tech Stack
+
 - React.js
 - Telegram Mini App API
 - Node.js + npm
@@ -35,39 +37,45 @@ A modern dating mini-app built using the **Telegram Mini App API** and **React.j
 ## 🛠 Installation
 
 ### Prerequisites
+
 - Node.js (LTS)
 - npm
 - Backend API → https://github.com/CommitPenguin/tg-date-backend
 
 ### 1. Clone the project
+
 ```sh
 git clone https://github.com/CommitPenguin/tg-date-frontend.git
 cd tg-date-frontend
 ```
 
 ### 2. Install dependencies
+
 ```sh
 npm install
 ```
 
 ### 3. Start development server
+
 ```sh
 npm run start
 ```
+
 Open ➜ http://localhost:3000
 
 ## ⚙️ Configuration
+
 Edit `src/config.js`:
+
 ```javascript
 const BASE_URL = "your backend base url";
 export default BASE_URL;
 ```
 
-## 📖 App Walkthrough
-(Images omitted here for brevity; keep them in your actual repo.)
-
 ## 🤝 Contributing
+
 PRs and ideas are welcome!
 
 ## 📜 License
+
 MIT License
